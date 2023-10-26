@@ -1,0 +1,159 @@
+2023-10-26 09:44:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+DROP TABLE Employee IF EXISTS; [90002-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.command.Prepared.query(Prepared.java:231)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:285)
+	at org.h2.command.CommandList.query(CommandList.java:78)
+	at org.h2.command.Command.executeQuery(Command.java:195)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:85)
+	at Main.main(Main.java:17)
+2023-10-26 09:45:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+DROP TABLE Employee IF EXISTS; [90002-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.command.Prepared.query(Prepared.java:231)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:285)
+	at org.h2.command.CommandList.query(CommandList.java:78)
+	at org.h2.command.Command.executeQuery(Command.java:195)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:85)
+	at Main.main(Main.java:17)
+2023-10-26 09:46:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+DROP TABLE Employee IF EXISTS; [90002-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.command.Prepared.query(Prepared.java:231)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:285)
+	at org.h2.command.CommandList.query(CommandList.java:78)
+	at org.h2.command.Command.executeQuery(Command.java:195)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:85)
+	at Main.main(Main.java:16)
+2023-10-26 09:46:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+DROP TABLE Employee IF EXISTS; [90002-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.command.Prepared.query(Prepared.java:231)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:285)
+	at org.h2.command.CommandList.query(CommandList.java:78)
+	at org.h2.command.Command.executeQuery(Command.java:195)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:85)
+	at Main.main(Main.java:16)
+2023-10-26 09:47:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+DROP TABLE Employee IF EXISTS; [90002-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.command.Prepared.query(Prepared.java:231)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:285)
+	at org.h2.command.CommandList.query(CommandList.java:78)
+	at org.h2.command.Command.executeQuery(Command.java:195)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:85)
+	at Main.main(Main.java:16)
+2023-10-26 09:47:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+DROP TABLE Employee IF EXISTS; [90002-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.command.Prepared.query(Prepared.java:231)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:285)
+	at org.h2.command.CommandList.query(CommandList.java:78)
+	at org.h2.command.Command.executeQuery(Command.java:195)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:85)
+	at Main.main(Main.java:16)
+2023-10-26 09:48:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Unknown data type: "INTGEGER"; SQL statement:
+ CREATE TABLE Employee(empId INTGEGER AUTO_INCREMENT PRIMARY KEY,empName VARCHAR2(50),empSalary NUMBER,empPhno INTEGER); [50004-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.command.Parser.parseColumnWithType(Parser.java:5971)
+	at org.h2.command.Parser.parseColumnForTable(Parser.java:5697)
+	at org.h2.command.Parser.parseTableColumnDefinition(Parser.java:8442)
+	at org.h2.command.Parser.parseCreateTable(Parser.java:8379)
+	at org.h2.command.Parser.parseCreate(Parser.java:6276)
+	at org.h2.command.Parser.parsePrepared(Parser.java:903)
+	at org.h2.command.Parser.parse(Parser.java:843)
+	at org.h2.command.Parser.parse(Parser.java:815)
+	at org.h2.command.Parser.prepareCommand(Parser.java:738)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:54)
+	at org.h2.command.CommandList.update(CommandList.java:67)
+	at org.h2.command.Command.executeUpdate(Command.java:251)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:168)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at Main.main(Main.java:16)
+2023-10-26 09:49:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column count does not match; SQL statement:
+INSERT INTO EMPLOYEE VALUES(?,?,?); [21002-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.command.dml.Insert.prepare(Insert.java:319)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:352)
+	at Main.main(Main.java:75)
+2023-10-26 09:51:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column count does not match; SQL statement:
+INSERT INTO EMPLOYEE VALUES(?,?,?) [21002-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.command.dml.Insert.prepare(Insert.java:319)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:352)
+	at Main.main(Main.java:75)
+2023-10-26 09:55:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement " CREATE TABLE EMPLOYEE(EMPID INTEGER AUTO_INCREMENT PRIMARY KEY,EMPNAME VARCHAR2(50),EMPSALARY NUMBER,EMPPHNO VARCHAR2(15);[*]"; expected "FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+ CREATE TABLE Employee(empId INTEGER AUTO_INCREMENT PRIMARY KEY,empName VARCHAR2(50),empSalary NUMBER,empPhno VARCHAR2(15); [42001-200]
+2023-10-26 09:57:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE EMPLOYEE SET ?[*]=? WHERE EMPID = ?"; expected "identifier"; SQL statement:
+UPDATE EMPLOYEE SET ?=? WHERE EmpId = ? [42001-200]
+2023-10-26 10:03:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Parameter "#1" is not set; SQL statement:
+UPDATE EMPLOYEE SET empName=? WHERE empId = ? [90012-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:83)
+	at org.h2.command.Prepared.checkParameters(Prepared.java:182)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:187)
+	at org.h2.command.Command.executeUpdate(Command.java:251)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:191)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:152)
+	at Main.main(Main.java:52)
