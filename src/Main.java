@@ -28,14 +28,18 @@ public class Main {
                         PreparedStatement preparedStatement1 = connection.prepareStatement(SELECTQUERY);
                         ResultSet resultSet = preparedStatement1.executeQuery();
                         int i=1;
-                        System.out.println("EmpId\tEmpName\t\tEmpSalary\tEmpPhno");
-                        while(resultSet.next()){
-                            System.out.println(resultSet.getInt(1)+"\t\t"+resultSet.getString(2)+"\t"+resultSet.getFloat(3)+"\t\t"+resultSet.getString(4));
+                        if(resultSet.next()) {
+                            System.out.println("EmpId\tEmpName\t\tEmpSalary\tEmpPhno");
+                            System.out.println(resultSet.getInt(1) + "\t\t" + resultSet.getString(2) + "\t" + resultSet.getFloat(3) + "\t\t" + resultSet.getString(4));
+                            while (resultSet.next()) {
+                                System.out.println(resultSet.getInt(1) + "\t\t" + resultSet.getString(2) + "\t" + resultSet.getFloat(3) + "\t\t" + resultSet.getString(4));
+                            }
+                        }else{
+                            System.out.println("The table is empty");
                         }
                         break;
 
                     case 2 :
-
                         System.out.println("Enter the employee ID of whose data you want to update : ");
                         int empId = scanner.nextInt();
                         System.out.println("Select the attribute you want to update : ");
@@ -74,7 +78,11 @@ public class Main {
                                 System.out.println("Invalid option");
                                 break;
                         }
-                        System.out.println(count + " rows updated");
+                        if(count==0){
+                            System.out.println("No employee with that Id exists , please retry ");
+                        }else {
+                            System.out.println(count + " rows updated");
+                        }
                         break;
 
 
@@ -90,7 +98,12 @@ public class Main {
                         preparedStatement3.setFloat(2,salary);
                         preparedStatement3.setString(3,phNo);
                         count = preparedStatement3.executeUpdate();
-                        System.out.println(count + " rows updated");
+                        if(count==0){
+                            System.out.println("The insert failed due to incorrect insertion");
+                        }
+                        else{
+                            System.out.println(count + " rows updated");
+                        }
                         break;
 
 
@@ -100,7 +113,11 @@ public class Main {
                         int empId1 = scanner.nextInt();
                         preparedStatement4.setInt(1,empId1);
                         count = preparedStatement4.executeUpdate();
-                        System.out.println(count + " rows updated");
+                        if(count==0){
+                            System.out.println("No employee with that Id exists , please retry ");
+                        }else {
+                            System.out.println(count + " rows updated");
+                        }
                         break;
 
                     case 5:
